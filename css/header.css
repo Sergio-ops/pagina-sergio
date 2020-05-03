@@ -1,0 +1,58 @@
+@media(min-width:360px){
+.imgtitulo{
+    width:5%;
+    height: 40px;
+    }
+header{
+    width: 100%;
+    }
+header a{
+    width: 60%;
+    height:45px;
+    font-family: 'Playfair Display', serif;
+    }
+}
+@media(min-width:480px){
+    .imgtitulo{
+        width: 10%;
+        height: 70px;
+    }
+    header a{
+        font-size: 1.2em;
+        width: 50%;
+    }
+    .navbar-brand{
+        display:inline-block;
+        margin-top: -5%;
+        padding-top:.3125rem;
+        padding-bottom:.3125rem;
+        margin-right:1rem;
+        font-size:2.95rem;
+        line-height:inherit;
+        white-space:nowrap
+    }
+}
+@media(max-width: 2090px){
+    header{
+        width: 100%;
+    }
+    #titulo{
+        margin-left: 1%;
+        margin-top: -3%;
+        width: 60%
+    }
+    .nav-link{
+        display: inline;
+        width: 100%;
+        font-size: 0.75em;
+        height: 30px;
+    }
+    .nav-link:hover{
+        background: rgba(255,255,255,0.1);
+    }
+    .imgtitulo{
+        width: 8%;
+        margin-top: -1px;
+        margin-left: -1%;
+    }
+}
